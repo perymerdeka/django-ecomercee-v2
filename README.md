@@ -10,3 +10,10 @@ ERD: https://lucid.app/lucidchart/ea778492-f58c-4bf7-90a1-c008fe30d9ea/edit?shar
     * Setup github workflow
     * Implement Two Scoop of django project structure
     * writing docs and explain project on markdown
+
+
+### Table of Contents
+
+* **Testing Methodology**
+    * [Test driven development best practice](docs/tdd-best-practice.md)
+    * 
