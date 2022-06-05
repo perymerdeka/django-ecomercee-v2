@@ -31,7 +31,7 @@ ERD: https://lucid.app/lucidchart/ea778492-f58c-4bf7-90a1-c008fe30d9ea/edit?shar
 
 * **Testing Methodology**
     * [Test driven development best practice](docs/tdd-best-practice.md)
-    * [Mastering Testing with Pytest in Django]()
+    * [Mastering Testing with Pytest in Django](docs/mastering-testing-with-pytest.md)
 
 * **Building RDBMS with Django**
   * Django Models
