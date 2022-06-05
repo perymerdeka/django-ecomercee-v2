@@ -55,7 +55,7 @@ This testing software is diverse and can be used on various platforms such as de
 
 #### Why Automation Testing
 
-[![bd1a3219623cfc7f3eb57c0d7a42c593.jpg](https://i.postimg.cc/Y9SZLmv3/bd1a3219623cfc7f3eb57c0d7a42c593.jpg)](https://postimg.cc/DWtBt0dJ)
+[![bd1a3219623cfc7f3eb57c0d7a42c593.jpg](https://i.postimg.cc/Y9SZLmv3/bd1a3219623cfc7f3eb57c0d7a42c593.jpg)](../docs/img/memes.jpeg)
 
 Test Automation is the best way to increase the effectiveness, test coverage, and execution speed in software testing. Automated software testing is important due to the following reasons:
 
