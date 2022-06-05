@@ -25,11 +25,13 @@ ERD: https://lucid.app/lucidchart/ea778492-f58c-4bf7-90a1-c008fe30d9ea/edit?shar
   * Github CI/CD
   * Mitrans Payment Gateway
   * Redis
-  * Flutter
 
 
 ### Table of Contents
 
 * **Testing Methodology**
     * [Test driven development best practice](docs/tdd-best-practice.md)
-    * 
+    * [Mastering Testing with Pytest in Django]()
+
+* **Building RDBMS with Django**
+  * Django Models
