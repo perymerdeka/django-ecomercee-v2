@@ -2,8 +2,7 @@
 
 ---
 
-on this chapter, we will discuss about how to configure and mastering pytest on django (best practice way) this chapter discuss about how to configure and designed
-test driven development using pytest for big and scalable project.
+In this chapter, we'll cover how to configure and master pytest in Django (best practice way) this chapter discusses how to configure and design test-driven development using pytest for large, scalable projects.
 
 ## Kick off
 
