@@ -14,4 +14,8 @@ let's see the table of content for this chapter
 * Install Plugin for Pytest
 * Configure `pytest.ini`
 * Restructure tests directory for best practice
+* Introduction to Pytest fixtures
 * writing first test using selenium and Pytest
+
+### Introduction to Pytest
+

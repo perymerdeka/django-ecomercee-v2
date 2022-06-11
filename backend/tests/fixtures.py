@@ -4,8 +4,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-from dashboard import DRIVER_PATH
+from . import DRIVER_PATH
 
+# chrome fixture
 @pytest.fixture(scope="module")
 def chrome_browser_instance():
     """
@@ -23,3 +24,4 @@ def chrome_browser_instance():
     yield driver
     driver.close()
     
+
