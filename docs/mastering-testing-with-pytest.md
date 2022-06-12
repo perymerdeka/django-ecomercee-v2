@@ -58,4 +58,7 @@ the plugin are used on this project
 * Pytest
 * Pytest Django
 * Pytest selenium
-* 
+* Faker
+* Factoryboy
+* coverage
+
