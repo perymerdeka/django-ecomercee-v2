@@ -1,3 +1,0 @@
-"""
-confest for pytest plugin
-"""

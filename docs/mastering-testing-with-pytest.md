@@ -62,3 +62,49 @@ the plugin are used on this project
 * Factoryboy
 * coverage
 
+## Writing first Test with Selenium and Pytest
+
+### Using LiveServerTestCase
+
+LiveServerTestCase does basically the same as TransactionTestCase with one extra feature: it launches a live Django server in the background on setup, and shuts it down on teardown. This allows the use of automated test clients other than the Django dummy client such as, for example, the Selenium client, to execute a series of functional tests inside a browser and simulate a real user’s actions.
+
+based on https://docs.djangoproject.com/en/4.0/topics/testing/tools/#django.test.LiveServerTestCase
+
+we can write live test using
+* [selenium](https://pypi.org/project/selenium/) 
+* [selenium webdriver manager](https://pypi.org/project/webdriver-manager/)
+
+#### Project Structure for Testing
+
+To start the project, we create a project structure like this, so it's easy to maintain
+
+```sh
+backend/
+├── apps
+│   ├── __init__.py
+│   └── dashboard
+│       ├── __init__.py
+│       ├── admin.py
+│       ├── apps.py
+│       ├── migrations
+│       │   └── __init__.py
+│       ├── models.py
+│       └── views.py
+├── conftest.py
+├── core
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   └── development.py
+│   ├── urls.py
+│   └── wsgi.py
+├── db.sqlite3
+├── manage.py
+├── pytest.ini
+└── tests
+    ├── __init__.py
+    ├── fixtures.py
+    └── test_dashboard_selenium.py
+```
