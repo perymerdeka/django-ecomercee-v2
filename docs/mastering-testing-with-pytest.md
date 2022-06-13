@@ -108,3 +108,15 @@ backend/
     ├── fixtures.py
     └── test_dashboard_selenium.py
 ```
+
+
+#### Install Required Plugin
+
+for this project on this chapter install required plugin for testing
+
+* [pytest](https://docs.pytest.org/en/latest/)
+* [Pytest-django](https://pytest-django.readthedocs.io/en/latest/)
+* [pytest-selenium](https://pytest-selenium.readthedocs.io/en/latest/user_guide.html)
+* [factoryboy](https://pypi.org/project/pytest-factoryboy/)
+* [faker](https://pypi.org/project/pytest-faker/)
+
