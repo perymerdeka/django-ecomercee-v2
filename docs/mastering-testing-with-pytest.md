@@ -10,6 +10,7 @@ let's see the table of content for this chapter
 
 #### Table of contemt
 
+* Creating Django project
 * Configure and Install Pytest
 * Install Plugin for Pytest
 * Configure `pytest.ini`
@@ -105,7 +106,6 @@ backend/
 ├── pytest.ini
 └── tests
     ├── __init__.py
-    ├── fixtures.py
     └── test_dashboard_selenium.py
 ```
 
@@ -119,4 +119,15 @@ for this project on this chapter install required plugin for testing
 * [pytest-selenium](https://pytest-selenium.readthedocs.io/en/latest/user_guide.html)
 * [factoryboy](https://pypi.org/project/pytest-factoryboy/)
 * [faker](https://pypi.org/project/pytest-faker/)
+* [selenium](https://pypi.org/project/selenium/) 
+* [selenium webdriver manager](https://pypi.org/project/webdriver-manager/)
 
+After knowing what plugins will be installed, let's install them using pip
+
+```sh
+pip install pytest pytest-django pytest-selenium pytest-factoryboy pytest-faker selenium webdriver-manager
+```
+
+then we can proceed to the next step, which is how to best practice pytest in django config
+
+#### Configuring Pytest on Django
