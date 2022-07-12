@@ -131,3 +131,22 @@ pip install pytest pytest-django pytest-selenium pytest-factoryboy pytest-faker 
 then we can proceed to the next step, which is how to best practice pytest in django config
 
 #### Configuring Pytest on Django
+
+for configuring pytest on django, we need to create a file called `pytest.ini`
+
+```sh
+[pytest]
+DJANGO_SETTINGS_MODULE = core.settings.development
+django_find_project = true
+python_files = tests.py test_*.py *_tests.py
+pythonpath = . backend
+addopts = -v --nomigrations --ignore=venv
+filterwarnings =
+    ignore:.*U.*mode is deprecated:DeprecationWarning
+    ignore:.*Django now detects this configuration.*:django.utils.deprecation.RemovedInDjango41Warning
+```
+
+refer on this link for more detail
+
+* https://pytest-django.readthedocs.io/en/latest/
+
