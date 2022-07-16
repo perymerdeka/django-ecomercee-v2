@@ -24,6 +24,7 @@ DATABASES = {
 
 INSTALLED_APPS += [
     'apps.dashboard.apps.DashboardConfig',
+    'apps.inventory.apps.InventoryConfig',
 ]
 # WSGI Application
 WSGI_APPLICATION = "core.wsgi.production.application"

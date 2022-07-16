@@ -18,4 +18,5 @@ DATABASES = {
 # Installed Application
 INSTALLED_APPS += [
     'apps.dashboard.apps.DashboardConfig',
+    'apps.inventory.apps.InventoryConfig',
 ]
