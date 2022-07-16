@@ -17,5 +17,5 @@ DATABASES = {
 
 # Installed Application
 INSTALLED_APPS += [
-    'apps.dashboard'
+    'apps.dashboard.apps.DashboardConfig',
 ]

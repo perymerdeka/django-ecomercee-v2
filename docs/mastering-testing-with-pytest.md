@@ -150,3 +150,6 @@ refer on this link for more detail
 
 * https://pytest-django.readthedocs.io/en/latest/
 
+#### Writing First Test
+
+in this chapter, we will write first test using selenium and pytest

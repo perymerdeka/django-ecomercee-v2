@@ -35,9 +35,9 @@ class TestAdminPage(StaticLiveServerTestCase):
     def test_create_new_user(self):
         admin = User.objects.create_superuser('dev', 'dev@dev.id', 'dev')
         self.client.login(username=admin.username, password=admin.password)
-        cookie = self.client.cookies['sessionid']
+        # cookie = self.client.cookies['sessionid']
         self.driver.get(self.live_server_url + '/admin/')  # selenium will set cookie domain based on current page domain
-        self.driver.add_cookie({'name': 'sessionid', 'value': cookie.value, 'secure': False, 'path': '/'})
+        # self.driver.add_cookie({'name': 'sessionid', 'value': cookie.value, 'secure': False, 'path': '/'})
         self.driver.refresh() # need to update page for logged in user
         self.driver.get(self.live_server_url + '/admin/')
 
