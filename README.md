@@ -4,7 +4,7 @@ fullstack django apps
 
 
 * ERD: https://lucid.app/lucidchart/ea778492-f58c-4bf7-90a1-c008fe30d9ea/edit?shared=true&page=0_0#
-* Tutorial GitBook: https://feri-lukmansyah.gitbook.io/django-ecommerce-fullstack-udemy-course/
+* Tutorial GitBook (Bahasa Indonesia): https://feri-lukmansyah.gitbook.io/django-ecommerce-fullstack-udemy-course/
 
 * TODO
     * configuring pytest
