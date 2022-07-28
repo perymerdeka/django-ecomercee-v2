@@ -1,0 +1,16 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "dev",
+            "first_name": "dev",
+            "last_name": "dev",
+            "email": "dev@dev.id",
+            "is_staff": true,
+            "is_superuser": true,
+            "is_active": true,
+            "password": "pbkdf2_sha256$320000$Fqmnh91pxwNkVxMbemHK8s$UcPYemk0CTBcYZeX7+6yY5bNaXDbvJDD0NmfnQ/1/ok="
+        }
+    }
+]

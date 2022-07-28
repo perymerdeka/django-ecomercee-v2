@@ -14,7 +14,7 @@ def test_create_superuser(create_admin_user):
 
 @pytest.mark.selenium
 def test_dashboard_admin_login(
-    live_server, chrome_browser_instance, create_admin_user
+    live_server, chrome_browser_instance, db_fixture_setup
 ):
 
     browser = chrome_browser_instance
