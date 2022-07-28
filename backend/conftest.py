@@ -1,4 +1,7 @@
 """
 conftest for pytest plugin
 """
-pytest_plugins = []
+pytest_plugins = [
+    "tests.fixtures",
+    "tests.selenium",
+]
