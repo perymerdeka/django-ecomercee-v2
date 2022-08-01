@@ -33,7 +33,6 @@ def test_inventory_category_dbfixture(
 def test_inventory_db_category_insert_data(
     db, category_factory, name, slug, is_active
 ):
-    result = category_factory.create(slug=slug, is_active=is_active)
+    result = category_factory.create(name=name, is_active=is_active)
     assert result.name == name
-    assert result.slug == slug
     assert result.is_active == is_active
