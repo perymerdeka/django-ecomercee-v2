@@ -11,10 +11,10 @@ fullstack django apps
       * test with pytest and selenium django
       * implement functional testing
       * User Testing automation
-  
-    * Setup github workflow
-    * Implement Two Scoop of django project structure
-    * writing docs and explain project on markdown
+    * Model Testing using Factoryboy
+      * Setup github workflow
+      * Implement Two Scoop of django project structure
+      * writing docs and explain project on markdown
 
 
 * Tech Stack
@@ -33,6 +33,7 @@ fullstack django apps
 * **Testing Methodology**
     * [Test driven development best practice](docs/tdd-best-practice.md)
     * [Mastering Testing with Pytest in Django](docs/mastering-testing-with-pytest.md)
+    * [Models Testing using FactoryBoy]()
 
 * **Building RDBMS with Django**
   * [Django Models]()
